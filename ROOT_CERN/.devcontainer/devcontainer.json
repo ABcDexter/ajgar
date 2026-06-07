@@ -1,0 +1,8 @@
+{
+  "name": "ROOT",
+  "image": "rootproject/root",
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ]
+}
