@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "playlib"
+version = "0.1.0"
+description = "Experimental pretty-printing library"
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    {name = "Anubhav Balodhi"}
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "mypy",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
