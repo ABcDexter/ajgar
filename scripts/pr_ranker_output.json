@@ -26,6 +26,50 @@
       },
       {
         "Rank": "1",
+        "Name": "Nityant",
+        "Episodes": "4",
+        "Total": "393.6",
+        "Episode 1": "",
+        "Episode 2": "104.5",
+        "Episode 3": "118.2",
+        "Episode 4": "159.5",
+        "Episode 5": "115.9"
+      },
+      {
+        "Rank": "2",
+        "Name": "anurag",
+        "Episodes": "5",
+        "Total": "392.1",
+        "Episode 1": "163.8",
+        "Episode 2": "100",
+        "Episode 3": "128.3",
+        "Episode 4": "87.7",
+        "Episode 5": "83.6"
+      },
+      {
+        "Rank": "3",
+        "Name": "kishy72",
+        "Episodes": "5",
+        "Total": "375.8",
+        "Episode 1": "130.4",
+        "Episode 2": "109.3",
+        "Episode 3": "100",
+        "Episode 4": "136.1",
+        "Episode 5": "95.5"
+      },
+      {
+        "Rank": "4",
+        "Name": "HumveeRuin",
+        "Episodes": "5",
+        "Total": "309.2",
+        "Episode 1": "98.4",
+        "Episode 2": "94.7",
+        "Episode 3": "62.7",
+        "Episode 4": "116.1",
+        "Episode 5": "89.9"
+      },
+      {
+        "Rank": "5",
         "Name": "vopani",
         "Episodes": "2",
         "Total": "295.6",
@@ -36,98 +80,65 @@
         "Episode 5": ""
       },
       {
-        "Rank": "2",
-        "Name": "anurag",
-        "Episodes": "4",
-        "Total": "292.1",
-        "Episode 1": "163.8",
-        "Episode 2": "100",
-        "Episode 3": "128.3",
-        "Episode 4": "87.7",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "3",
-        "Name": "Nityant",
-        "Episodes": "3",
-        "Total": "277.7",
-        "Episode 1": "",
-        "Episode 2": "104.5",
-        "Episode 3": "118.2",
-        "Episode 4": "159.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "4",
-        "Name": "kishy72",
-        "Episodes": "4",
-        "Total": "266.5",
-        "Episode 1": "130.4",
-        "Episode 2": "109.3",
-        "Episode 3": "100",
-        "Episode 4": "136.1",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "5",
-        "Name": "HumveeRuin",
-        "Episodes": "4",
-        "Total": "214.5",
-        "Episode 1": "98.4",
-        "Episode 2": "94.7",
-        "Episode 3": "62.7",
-        "Episode 4": "116.1",
-        "Episode 5": ""
-      },
-      {
         "Rank": "6",
-        "Name": "NyxicSulfur",
-        "Episodes": "3",
-        "Total": "197.2",
-        "Episode 1": "",
-        "Episode 2": "97.2",
-        "Episode 3": "56.9",
-        "Episode 4": "100",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "7",
         "Name": "mjaipal",
-        "Episodes": "4",
-        "Total": "177.3",
+        "Episodes": "5",
+        "Total": "263.3",
         "Episode 1": "96",
         "Episode 2": "81.2",
         "Episode 3": "47.5",
         "Episode 4": "81.3",
-        "Episode 5": ""
+        "Episode 5": "85.9"
+      },
+      {
+        "Rank": "7",
+        "Name": "NyxicSulfur",
+        "Episodes": "4",
+        "Total": "255.5",
+        "Episode 1": "",
+        "Episode 2": "97.2",
+        "Episode 3": "56.9",
+        "Episode 4": "100",
+        "Episode 5": "58.4"
       },
       {
         "Rank": "8",
+        "Name": "ABcDexter",
+        "Episodes": "5",
+        "Total": "248.2",
+        "Episode 1": "43",
+        "Episode 2": "40.7",
+        "Episode 3": "23",
+        "Episode 4": "28.5",
+        "Episode 5": "164.5"
+      },
+      {
+        "Rank": "9",
         "Name": "hpoddar08",
-        "Episodes": "4",
-        "Total": "172",
+        "Episodes": "5",
+        "Total": "236.5",
         "Episode 1": "100",
         "Episode 2": "72",
         "Episode 3": "64.5",
         "Episode 4": "57",
-        "Episode 5": ""
+        "Episode 5": "61"
       },
       {
-        "Rank": "9",
+        "Rank": "10",
         "Name": "harmeet",
-        "Episodes": "3",
-        "Total": "159.8",
+        "Episodes": "4",
+        "Total": "234",
         "Episode 1": "84",
         "Episode 2": "75.8",
         "Episode 3": "50.7",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "74.3"
       },
       {
-        "Rank": "10",
+        "Rank": "11",
         "Name": "mkartik",
         "Episodes": "4",
-        "Total": "157",
+        "Total": "210",
         "Episode 1": "100",
         "Episode 2": "53",
         "Episode 3": "13.8",
@@ -135,18 +146,117 @@
         "Episode 5": ""
       },
       {
-        "Rank": "11",
+        "Rank": "12",
+        "Name": "gunasundharid",
+        "Episodes": "5",
+        "Total": "190",
+        "Episode 1": "60",
+        "Episode 2": "18.9",
+        "Episode 3": "30",
+        "Episode 4": "22.2",
+        "Episode 5": "100"
+      },
+      {
+        "Rank": "13",
+        "Name": "tushhr",
+        "Episodes": "4",
+        "Total": "185.5",
+        "Episode 1": "70.6",
+        "Episode 2": "42.2",
+        "Episode 3": "",
+        "Episode 4": "25.3",
+        "Episode 5": "72.7"
+      },
+      {
+        "Rank": "14",
         "Name": "professorX",
-        "Episodes": "3",
-        "Total": "136.2",
+        "Episodes": "4",
+        "Total": "175.4",
         "Episode 1": "",
         "Episode 2": "3.8",
         "Episode 3": "76",
         "Episode 4": "60.1",
+        "Episode 5": "39.3"
+      },
+      {
+        "Rank": "15",
+        "Name": "anithra",
+        "Episodes": "5",
+        "Total": "157.3",
+        "Episode 1": "66",
+        "Episode 2": "43.6",
+        "Episode 3": "18.4",
+        "Episode 4": "21.5",
+        "Episode 5": "47.7"
+      },
+      {
+        "Rank": "16",
+        "Name": "sonalsanchi",
+        "Episodes": "5",
+        "Total": "156.2",
+        "Episode 1": "14",
+        "Episode 2": "15.2",
+        "Episode 3": "21.4",
+        "Episode 4": "32.9",
+        "Episode 5": "101.9"
+      },
+      {
+        "Rank": "17",
+        "Name": "mathcrazy",
+        "Episodes": "4",
+        "Total": "142",
+        "Episode 1": "60",
+        "Episode 2": "",
+        "Episode 3": "36.9",
+        "Episode 4": "15.8",
+        "Episode 5": "45.1"
+      },
+      {
+        "Rank": "18",
+        "Name": "juhi.k_",
+        "Episodes": "3",
+        "Total": "140",
+        "Episode 1": "38",
+        "Episode 2": "39.8",
+        "Episode 3": "62.2",
+        "Episode 4": "",
         "Episode 5": ""
       },
       {
-        "Rank": "12",
+        "Rank": "19",
+        "Name": "Khushipabari",
+        "Episodes": "4",
+        "Total": "139.4",
+        "Episode 1": "",
+        "Episode 2": "20.8",
+        "Episode 3": "23",
+        "Episode 4": "9.5",
+        "Episode 5": "95.5"
+      },
+      {
+        "Rank": "20",
+        "Name": "Hemant Kr Malani",
+        "Episodes": "3",
+        "Total": "128.1",
+        "Episode 1": "54",
+        "Episode 2": "43.9",
+        "Episode 3": "30.2",
+        "Episode 4": "",
+        "Episode 5": ""
+      },
+      {
+        "Rank": "21",
+        "Name": "Chandrashekhar",
+        "Episodes": "4",
+        "Total": "126.6",
+        "Episode 1": "22",
+        "Episode 2": "20.5",
+        "Episode 3": "27.6",
+        "Episode 4": "",
+        "Episode 5": "76.9"
+      },
+      {
+        "Rank": "22",
         "Name": "kavimrvavi",
         "Episodes": "2",
         "Total": "121.3",
@@ -157,7 +267,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "13",
+        "Rank": "23",
+        "Name": "jg31",
+        "Episodes": "3",
+        "Total": "118",
+        "Episode 1": "46",
+        "Episode 2": "25.9",
+        "Episode 3": "46.1",
+        "Episode 4": "",
+        "Episode 5": ""
+      },
+      {
+        "Rank": "24",
         "Name": "snowblessed",
         "Episodes": "2",
         "Total": "116.6",
@@ -168,95 +289,51 @@
         "Episode 5": ""
       },
       {
-        "Rank": "14",
-        "Name": "tushhr",
-        "Episodes": "3",
-        "Total": "112.8",
-        "Episode 1": "70.6",
-        "Episode 2": "42.2",
-        "Episode 3": "",
-        "Episode 4": "25.3",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "15",
-        "Name": "anithra",
+        "Rank": "25",
+        "Name": "dipkmr",
         "Episodes": "4",
-        "Total": "109.6",
-        "Episode 1": "66",
-        "Episode 2": "43.6",
-        "Episode 3": "18.4",
-        "Episode 4": "21.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "16",
-        "Name": "juhi.k_",
-        "Episodes": "3",
-        "Total": "102",
-        "Episode 1": "38",
-        "Episode 2": "39.8",
-        "Episode 3": "62.2",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "17",
-        "Name": "Hemant Kr Malani",
-        "Episodes": "3",
-        "Total": "97.9",
-        "Episode 1": "54",
-        "Episode 2": "43.9",
-        "Episode 3": "30.2",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "18",
-        "Name": "mathcrazy",
-        "Episodes": "3",
-        "Total": "96.9",
-        "Episode 1": "60",
+        "Total": "97.3",
+        "Episode 1": "41.2",
         "Episode 2": "",
-        "Episode 3": "36.9",
-        "Episode 4": "15.8",
-        "Episode 5": ""
+        "Episode 3": "10.6",
+        "Episode 4": "19",
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "19",
-        "Name": "jg31",
+        "Rank": "26",
+        "Name": "DanAvi",
         "Episodes": "3",
-        "Total": "92.1",
-        "Episode 1": "46",
-        "Episode 2": "25.9",
-        "Episode 3": "46.1",
+        "Total": "92.6",
+        "Episode 1": "14",
+        "Episode 2": "",
+        "Episode 3": "41.5",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "20",
-        "Name": "gunasundharid",
-        "Episodes": "4",
-        "Total": "90",
-        "Episode 1": "60",
-        "Episode 2": "18.9",
-        "Episode 3": "30",
-        "Episode 4": "22.2",
-        "Episode 5": ""
+        "Rank": "27",
+        "Name": "vjain9",
+        "Episodes": "5",
+        "Total": "91.9",
+        "Episode 1": "26",
+        "Episode 2": "28.8",
+        "Episode 3": "13.8",
+        "Episode 4": "9.5",
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "21",
-        "Name": "ABcDexter",
-        "Episodes": "4",
+        "Rank": "28",
+        "Name": "Peter_Maverick",
+        "Episodes": "2",
         "Total": "83.7",
-        "Episode 1": "43",
-        "Episode 2": "40.7",
-        "Episode 3": "23",
-        "Episode 4": "28.5",
-        "Episode 5": ""
+        "Episode 1": "",
+        "Episode 2": "62.5",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "21.2"
       },
       {
-        "Rank": "22",
+        "Rank": "29",
         "Name": "MrWhite",
         "Episodes": "1",
         "Total": "82.2",
@@ -267,7 +344,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "23",
+        "Rank": "30",
+        "Name": "Anu G",
+        "Episodes": "2",
+        "Total": "78.5",
+        "Episode 1": "44",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "34.5"
+      },
+      {
+        "Rank": "31",
         "Name": "gaurav.kjain",
         "Episodes": "1",
         "Total": "78",
@@ -278,7 +366,29 @@
         "Episode 5": ""
       },
       {
-        "Rank": "24",
+        "Rank": "32",
+        "Name": "VijayalakshmiR",
+        "Episodes": "1",
+        "Total": "75.9",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "75.9"
+      },
+      {
+        "Rank": "33",
+        "Name": "Kinjal",
+        "Episodes": "1",
+        "Total": "71.6",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "71.6"
+      },
+      {
+        "Rank": "34",
         "Name": "snehasanjeevini",
         "Episodes": "2",
         "Total": "67.8",
@@ -289,29 +399,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "25",
-        "Name": "Peter_Maverick",
-        "Episodes": "1",
-        "Total": "62.5",
-        "Episode 1": "",
-        "Episode 2": "62.5",
+        "Rank": "35",
+        "Name": "sitaswag",
+        "Episodes": "2",
+        "Total": "65.7",
+        "Episode 1": "10",
+        "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "55.7"
       },
       {
-        "Rank": "26",
-        "Name": "dipkmr",
-        "Episodes": "3",
-        "Total": "60.2",
-        "Episode 1": "41.2",
-        "Episode 2": "",
-        "Episode 3": "10.6",
-        "Episode 4": "19",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "27",
+        "Rank": "36",
         "Name": "Nyxic",
         "Episodes": "1",
         "Total": "60",
@@ -322,29 +421,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "28",
-        "Name": "DanAvi",
-        "Episodes": "2",
-        "Total": "55.5",
-        "Episode 1": "14",
-        "Episode 2": "",
-        "Episode 3": "41.5",
+        "Rank": "37",
+        "Name": "avni",
+        "Episodes": "3",
+        "Total": "54.8",
+        "Episode 1": "30",
+        "Episode 2": "13.3",
+        "Episode 3": "11.5",
         "Episode 4": "",
         "Episode 5": ""
       },
       {
-        "Rank": "29",
-        "Name": "vjain9",
-        "Episodes": "4",
-        "Total": "54.8",
-        "Episode 1": "26",
-        "Episode 2": "28.8",
-        "Episode 3": "13.8",
-        "Episode 4": "9.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "30",
+        "Rank": "38",
         "Name": "avinash175",
         "Episodes": "1",
         "Total": "54.4",
@@ -355,18 +443,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "31",
-        "Name": "sonalsanchi",
-        "Episodes": "4",
-        "Total": "54.3",
-        "Episode 1": "14",
-        "Episode 2": "15.2",
-        "Episode 3": "21.4",
-        "Episode 4": "32.9",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "32",
+        "Rank": "39",
         "Name": "shivansh314",
         "Episodes": "1",
         "Total": "54",
@@ -377,18 +454,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "33",
-        "Name": "Chandrashekhar",
+        "Rank": "40",
+        "Name": "Rohan Gowda",
         "Episodes": "3",
-        "Total": "49.6",
-        "Episode 1": "22",
-        "Episode 2": "20.5",
-        "Episode 3": "27.6",
+        "Total": "53.5",
+        "Episode 1": "12",
+        "Episode 2": "7.6",
+        "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "34"
       },
       {
-        "Rank": "34",
+        "Rank": "41",
         "Name": "lenson",
         "Episodes": "1",
         "Total": "48",
@@ -399,7 +476,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "35",
+        "Rank": "42",
+        "Name": "crashsolver",
+        "Episodes": "1",
+        "Total": "47.7",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "47.7"
+      },
+      {
+        "Rank": "43",
         "Name": "meg315",
         "Episodes": "1",
         "Total": "46",
@@ -410,7 +498,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "36",
+        "Rank": "44",
         "Name": "Soni",
         "Episodes": "1",
         "Total": "45.4",
@@ -421,40 +509,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "37",
-        "Name": "Anu G",
-        "Episodes": "1",
-        "Total": "44",
-        "Episode 1": "44",
-        "Episode 2": "",
-        "Episode 3": "",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "38",
-        "Name": "Khushipabari",
-        "Episodes": "3",
-        "Total": "43.9",
-        "Episode 1": "",
-        "Episode 2": "20.8",
-        "Episode 3": "23",
-        "Episode 4": "9.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "39",
-        "Name": "avni",
-        "Episodes": "3",
-        "Total": "43.3",
-        "Episode 1": "30",
-        "Episode 2": "13.3",
-        "Episode 3": "11.5",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "40",
+        "Rank": "45",
         "Name": "dhruvarajsinhpuwar06",
         "Episodes": "1",
         "Total": "40",
@@ -465,7 +520,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "41",
+        "Rank": "46",
+        "Name": "TeRdr",
+        "Episodes": "1",
+        "Total": "30.8",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "30.8"
+      },
+      {
+        "Rank": "47",
         "Name": "jhawardast",
         "Episodes": "1",
         "Total": "30",
@@ -476,7 +542,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "42",
+        "Rank": "48",
         "Name": "Divjyot Singh",
         "Episodes": "1",
         "Total": "28",
@@ -487,7 +553,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "43",
+        "Rank": "49",
         "Name": "sonalsanchi.agarwal",
         "Episodes": "1",
         "Total": "26",
@@ -498,7 +564,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "44",
+        "Rank": "50",
         "Name": "Anaha",
         "Episodes": "2",
         "Total": "25.4",
@@ -509,7 +575,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "45",
+        "Rank": "51",
         "Name": "akshhhay",
         "Episodes": "1",
         "Total": "24",
@@ -520,7 +586,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "46",
+        "Rank": "52",
         "Name": "vijaya_rajan",
         "Episodes": "1",
         "Total": "24",
@@ -531,7 +597,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "47",
+        "Rank": "53",
         "Name": "gh051",
         "Episodes": "1",
         "Total": "22",
@@ -542,18 +608,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "48",
-        "Name": "Rohan Gowda",
-        "Episodes": "2",
-        "Total": "19.6",
-        "Episode 1": "12",
-        "Episode 2": "7.6",
+        "Rank": "54",
+        "Name": "Sahasra_A",
+        "Episodes": "1",
+        "Total": "15.9",
+        "Episode 1": "",
+        "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "15.9"
       },
       {
-        "Rank": "49",
+        "Rank": "55",
         "Name": "hygge",
         "Episodes": "1",
         "Total": "15",
@@ -564,18 +630,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "50",
-        "Name": "sitaswag",
+        "Rank": "56",
+        "Name": "Mac_inations",
         "Episodes": "1",
-        "Total": "10",
-        "Episode 1": "10",
+        "Total": "9.5",
+        "Episode 1": "",
         "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "9.5"
       },
       {
-        "Rank": "51",
+        "Rank": "57",
         "Name": "numgawd",
         "Episodes": "1",
         "Total": "9.5",
@@ -586,7 +652,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "52",
+        "Rank": "58",
         "Name": "khuski",
         "Episodes": "1",
         "Total": "8",
@@ -597,7 +663,29 @@
         "Episode 5": ""
       },
       {
-        "Rank": "53",
+        "Rank": "59",
+        "Name": "Deep19",
+        "Episodes": "1",
+        "Total": "5.3",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "5.3"
+      },
+      {
+        "Rank": "60",
+        "Name": "Eknoor",
+        "Episodes": "1",
+        "Total": "5.3",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "5.3"
+      },
+      {
+        "Rank": "61",
         "Name": "AdhiraV",
         "Episodes": "1",
         "Total": "2.3",
@@ -625,6 +713,50 @@
     "rows": [
       {
         "Rank": "1",
+        "Name": "Nityant",
+        "Episodes": "4",
+        "Total": "393.6",
+        "Episode 1": "",
+        "Episode 2": "104.5",
+        "Episode 3": "118.2",
+        "Episode 4": "159.5",
+        "Episode 5": "115.9"
+      },
+      {
+        "Rank": "2",
+        "Name": "anurag",
+        "Episodes": "5",
+        "Total": "392.1",
+        "Episode 1": "163.8",
+        "Episode 2": "100",
+        "Episode 3": "128.3",
+        "Episode 4": "87.7",
+        "Episode 5": "83.6"
+      },
+      {
+        "Rank": "3",
+        "Name": "kishy72",
+        "Episodes": "5",
+        "Total": "375.8",
+        "Episode 1": "130.4",
+        "Episode 2": "109.3",
+        "Episode 3": "100",
+        "Episode 4": "136.1",
+        "Episode 5": "95.5"
+      },
+      {
+        "Rank": "4",
+        "Name": "HumveeRuin",
+        "Episodes": "5",
+        "Total": "309.2",
+        "Episode 1": "98.4",
+        "Episode 2": "94.7",
+        "Episode 3": "62.7",
+        "Episode 4": "116.1",
+        "Episode 5": "89.9"
+      },
+      {
+        "Rank": "5",
         "Name": "vopani",
         "Episodes": "2",
         "Total": "295.6",
@@ -635,98 +767,65 @@
         "Episode 5": ""
       },
       {
-        "Rank": "2",
-        "Name": "anurag",
-        "Episodes": "4",
-        "Total": "292.1",
-        "Episode 1": "163.8",
-        "Episode 2": "100",
-        "Episode 3": "128.3",
-        "Episode 4": "87.7",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "3",
-        "Name": "Nityant",
-        "Episodes": "3",
-        "Total": "277.7",
-        "Episode 1": "",
-        "Episode 2": "104.5",
-        "Episode 3": "118.2",
-        "Episode 4": "159.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "4",
-        "Name": "kishy72",
-        "Episodes": "4",
-        "Total": "266.5",
-        "Episode 1": "130.4",
-        "Episode 2": "109.3",
-        "Episode 3": "100",
-        "Episode 4": "136.1",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "5",
-        "Name": "HumveeRuin",
-        "Episodes": "4",
-        "Total": "214.5",
-        "Episode 1": "98.4",
-        "Episode 2": "94.7",
-        "Episode 3": "62.7",
-        "Episode 4": "116.1",
-        "Episode 5": ""
-      },
-      {
         "Rank": "6",
-        "Name": "NyxicSulfur",
-        "Episodes": "3",
-        "Total": "197.2",
-        "Episode 1": "",
-        "Episode 2": "97.2",
-        "Episode 3": "56.9",
-        "Episode 4": "100",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "7",
         "Name": "mjaipal",
-        "Episodes": "4",
-        "Total": "177.3",
+        "Episodes": "5",
+        "Total": "263.3",
         "Episode 1": "96",
         "Episode 2": "81.2",
         "Episode 3": "47.5",
         "Episode 4": "81.3",
-        "Episode 5": ""
+        "Episode 5": "85.9"
+      },
+      {
+        "Rank": "7",
+        "Name": "NyxicSulfur",
+        "Episodes": "4",
+        "Total": "255.5",
+        "Episode 1": "",
+        "Episode 2": "97.2",
+        "Episode 3": "56.9",
+        "Episode 4": "100",
+        "Episode 5": "58.4"
       },
       {
         "Rank": "8",
+        "Name": "ABcDexter",
+        "Episodes": "5",
+        "Total": "248.2",
+        "Episode 1": "43",
+        "Episode 2": "40.7",
+        "Episode 3": "23",
+        "Episode 4": "28.5",
+        "Episode 5": "164.5"
+      },
+      {
+        "Rank": "9",
         "Name": "hpoddar08",
-        "Episodes": "4",
-        "Total": "172",
+        "Episodes": "5",
+        "Total": "236.5",
         "Episode 1": "100",
         "Episode 2": "72",
         "Episode 3": "64.5",
         "Episode 4": "57",
-        "Episode 5": ""
+        "Episode 5": "61"
       },
       {
-        "Rank": "9",
+        "Rank": "10",
         "Name": "harmeet",
-        "Episodes": "3",
-        "Total": "159.8",
+        "Episodes": "4",
+        "Total": "234",
         "Episode 1": "84",
         "Episode 2": "75.8",
         "Episode 3": "50.7",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "74.3"
       },
       {
-        "Rank": "10",
+        "Rank": "11",
         "Name": "mkartik",
         "Episodes": "4",
-        "Total": "157",
+        "Total": "210",
         "Episode 1": "100",
         "Episode 2": "53",
         "Episode 3": "13.8",
@@ -734,18 +833,117 @@
         "Episode 5": ""
       },
       {
-        "Rank": "11",
+        "Rank": "12",
+        "Name": "gunasundharid",
+        "Episodes": "5",
+        "Total": "190",
+        "Episode 1": "60",
+        "Episode 2": "18.9",
+        "Episode 3": "30",
+        "Episode 4": "22.2",
+        "Episode 5": "100"
+      },
+      {
+        "Rank": "13",
+        "Name": "tushhr",
+        "Episodes": "4",
+        "Total": "185.5",
+        "Episode 1": "70.6",
+        "Episode 2": "42.2",
+        "Episode 3": "",
+        "Episode 4": "25.3",
+        "Episode 5": "72.7"
+      },
+      {
+        "Rank": "14",
         "Name": "professorX",
-        "Episodes": "3",
-        "Total": "136.2",
+        "Episodes": "4",
+        "Total": "175.4",
         "Episode 1": "",
         "Episode 2": "3.8",
         "Episode 3": "76",
         "Episode 4": "60.1",
+        "Episode 5": "39.3"
+      },
+      {
+        "Rank": "15",
+        "Name": "anithra",
+        "Episodes": "5",
+        "Total": "157.3",
+        "Episode 1": "66",
+        "Episode 2": "43.6",
+        "Episode 3": "18.4",
+        "Episode 4": "21.5",
+        "Episode 5": "47.7"
+      },
+      {
+        "Rank": "16",
+        "Name": "sonalsanchi",
+        "Episodes": "5",
+        "Total": "156.2",
+        "Episode 1": "14",
+        "Episode 2": "15.2",
+        "Episode 3": "21.4",
+        "Episode 4": "32.9",
+        "Episode 5": "101.9"
+      },
+      {
+        "Rank": "17",
+        "Name": "mathcrazy",
+        "Episodes": "4",
+        "Total": "142",
+        "Episode 1": "60",
+        "Episode 2": "",
+        "Episode 3": "36.9",
+        "Episode 4": "15.8",
+        "Episode 5": "45.1"
+      },
+      {
+        "Rank": "18",
+        "Name": "juhi.k_",
+        "Episodes": "3",
+        "Total": "140",
+        "Episode 1": "38",
+        "Episode 2": "39.8",
+        "Episode 3": "62.2",
+        "Episode 4": "",
         "Episode 5": ""
       },
       {
-        "Rank": "12",
+        "Rank": "19",
+        "Name": "Khushipabari",
+        "Episodes": "4",
+        "Total": "139.4",
+        "Episode 1": "",
+        "Episode 2": "20.8",
+        "Episode 3": "23",
+        "Episode 4": "9.5",
+        "Episode 5": "95.5"
+      },
+      {
+        "Rank": "20",
+        "Name": "Hemant Kr Malani",
+        "Episodes": "3",
+        "Total": "128.1",
+        "Episode 1": "54",
+        "Episode 2": "43.9",
+        "Episode 3": "30.2",
+        "Episode 4": "",
+        "Episode 5": ""
+      },
+      {
+        "Rank": "21",
+        "Name": "Chandrashekhar",
+        "Episodes": "4",
+        "Total": "126.6",
+        "Episode 1": "22",
+        "Episode 2": "20.5",
+        "Episode 3": "27.6",
+        "Episode 4": "",
+        "Episode 5": "76.9"
+      },
+      {
+        "Rank": "22",
         "Name": "kavimrvavi",
         "Episodes": "2",
         "Total": "121.3",
@@ -756,7 +954,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "13",
+        "Rank": "23",
+        "Name": "jg31",
+        "Episodes": "3",
+        "Total": "118",
+        "Episode 1": "46",
+        "Episode 2": "25.9",
+        "Episode 3": "46.1",
+        "Episode 4": "",
+        "Episode 5": ""
+      },
+      {
+        "Rank": "24",
         "Name": "snowblessed",
         "Episodes": "2",
         "Total": "116.6",
@@ -767,95 +976,51 @@
         "Episode 5": ""
       },
       {
-        "Rank": "14",
-        "Name": "tushhr",
-        "Episodes": "3",
-        "Total": "112.8",
-        "Episode 1": "70.6",
-        "Episode 2": "42.2",
-        "Episode 3": "",
-        "Episode 4": "25.3",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "15",
-        "Name": "anithra",
+        "Rank": "25",
+        "Name": "dipkmr",
         "Episodes": "4",
-        "Total": "109.6",
-        "Episode 1": "66",
-        "Episode 2": "43.6",
-        "Episode 3": "18.4",
-        "Episode 4": "21.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "16",
-        "Name": "juhi.k_",
-        "Episodes": "3",
-        "Total": "102",
-        "Episode 1": "38",
-        "Episode 2": "39.8",
-        "Episode 3": "62.2",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "17",
-        "Name": "Hemant Kr Malani",
-        "Episodes": "3",
-        "Total": "97.9",
-        "Episode 1": "54",
-        "Episode 2": "43.9",
-        "Episode 3": "30.2",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "18",
-        "Name": "mathcrazy",
-        "Episodes": "3",
-        "Total": "96.9",
-        "Episode 1": "60",
+        "Total": "97.3",
+        "Episode 1": "41.2",
         "Episode 2": "",
-        "Episode 3": "36.9",
-        "Episode 4": "15.8",
-        "Episode 5": ""
+        "Episode 3": "10.6",
+        "Episode 4": "19",
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "19",
-        "Name": "jg31",
+        "Rank": "26",
+        "Name": "DanAvi",
         "Episodes": "3",
-        "Total": "92.1",
-        "Episode 1": "46",
-        "Episode 2": "25.9",
-        "Episode 3": "46.1",
+        "Total": "92.6",
+        "Episode 1": "14",
+        "Episode 2": "",
+        "Episode 3": "41.5",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "20",
-        "Name": "gunasundharid",
-        "Episodes": "4",
-        "Total": "90",
-        "Episode 1": "60",
-        "Episode 2": "18.9",
-        "Episode 3": "30",
-        "Episode 4": "22.2",
-        "Episode 5": ""
+        "Rank": "27",
+        "Name": "vjain9",
+        "Episodes": "5",
+        "Total": "91.9",
+        "Episode 1": "26",
+        "Episode 2": "28.8",
+        "Episode 3": "13.8",
+        "Episode 4": "9.5",
+        "Episode 5": "37.1"
       },
       {
-        "Rank": "21",
-        "Name": "ABcDexter",
-        "Episodes": "4",
+        "Rank": "28",
+        "Name": "Peter_Maverick",
+        "Episodes": "2",
         "Total": "83.7",
-        "Episode 1": "43",
-        "Episode 2": "40.7",
-        "Episode 3": "23",
-        "Episode 4": "28.5",
-        "Episode 5": ""
+        "Episode 1": "",
+        "Episode 2": "62.5",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "21.2"
       },
       {
-        "Rank": "22",
+        "Rank": "29",
         "Name": "MrWhite",
         "Episodes": "1",
         "Total": "82.2",
@@ -866,7 +1031,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "23",
+        "Rank": "30",
+        "Name": "Anu G",
+        "Episodes": "2",
+        "Total": "78.5",
+        "Episode 1": "44",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "34.5"
+      },
+      {
+        "Rank": "31",
         "Name": "gaurav.kjain",
         "Episodes": "1",
         "Total": "78",
@@ -877,7 +1053,29 @@
         "Episode 5": ""
       },
       {
-        "Rank": "24",
+        "Rank": "32",
+        "Name": "VijayalakshmiR",
+        "Episodes": "1",
+        "Total": "75.9",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "75.9"
+      },
+      {
+        "Rank": "33",
+        "Name": "Kinjal",
+        "Episodes": "1",
+        "Total": "71.6",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "71.6"
+      },
+      {
+        "Rank": "34",
         "Name": "snehasanjeevini",
         "Episodes": "2",
         "Total": "67.8",
@@ -888,29 +1086,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "25",
-        "Name": "Peter_Maverick",
-        "Episodes": "1",
-        "Total": "62.5",
-        "Episode 1": "",
-        "Episode 2": "62.5",
+        "Rank": "35",
+        "Name": "sitaswag",
+        "Episodes": "2",
+        "Total": "65.7",
+        "Episode 1": "10",
+        "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "55.7"
       },
       {
-        "Rank": "26",
-        "Name": "dipkmr",
-        "Episodes": "3",
-        "Total": "60.2",
-        "Episode 1": "41.2",
-        "Episode 2": "",
-        "Episode 3": "10.6",
-        "Episode 4": "19",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "27",
+        "Rank": "36",
         "Name": "Nyxic",
         "Episodes": "1",
         "Total": "60",
@@ -921,29 +1108,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "28",
-        "Name": "DanAvi",
-        "Episodes": "2",
-        "Total": "55.5",
-        "Episode 1": "14",
-        "Episode 2": "",
-        "Episode 3": "41.5",
+        "Rank": "37",
+        "Name": "avni",
+        "Episodes": "3",
+        "Total": "54.8",
+        "Episode 1": "30",
+        "Episode 2": "13.3",
+        "Episode 3": "11.5",
         "Episode 4": "",
         "Episode 5": ""
       },
       {
-        "Rank": "29",
-        "Name": "vjain9",
-        "Episodes": "4",
-        "Total": "54.8",
-        "Episode 1": "26",
-        "Episode 2": "28.8",
-        "Episode 3": "13.8",
-        "Episode 4": "9.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "30",
+        "Rank": "38",
         "Name": "avinash175",
         "Episodes": "1",
         "Total": "54.4",
@@ -954,18 +1130,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "31",
-        "Name": "sonalsanchi",
-        "Episodes": "4",
-        "Total": "54.3",
-        "Episode 1": "14",
-        "Episode 2": "15.2",
-        "Episode 3": "21.4",
-        "Episode 4": "32.9",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "32",
+        "Rank": "39",
         "Name": "shivansh314",
         "Episodes": "1",
         "Total": "54",
@@ -976,18 +1141,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "33",
-        "Name": "Chandrashekhar",
+        "Rank": "40",
+        "Name": "Rohan Gowda",
         "Episodes": "3",
-        "Total": "49.6",
-        "Episode 1": "22",
-        "Episode 2": "20.5",
-        "Episode 3": "27.6",
+        "Total": "53.5",
+        "Episode 1": "12",
+        "Episode 2": "7.6",
+        "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "34"
       },
       {
-        "Rank": "34",
+        "Rank": "41",
         "Name": "lenson",
         "Episodes": "1",
         "Total": "48",
@@ -998,7 +1163,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "35",
+        "Rank": "42",
+        "Name": "crashsolver",
+        "Episodes": "1",
+        "Total": "47.7",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "47.7"
+      },
+      {
+        "Rank": "43",
         "Name": "meg315",
         "Episodes": "1",
         "Total": "46",
@@ -1009,7 +1185,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "36",
+        "Rank": "44",
         "Name": "Soni",
         "Episodes": "1",
         "Total": "45.4",
@@ -1020,40 +1196,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "37",
-        "Name": "Anu G",
-        "Episodes": "1",
-        "Total": "44",
-        "Episode 1": "44",
-        "Episode 2": "",
-        "Episode 3": "",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "38",
-        "Name": "Khushipabari",
-        "Episodes": "3",
-        "Total": "43.9",
-        "Episode 1": "",
-        "Episode 2": "20.8",
-        "Episode 3": "23",
-        "Episode 4": "9.5",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "39",
-        "Name": "avni",
-        "Episodes": "3",
-        "Total": "43.3",
-        "Episode 1": "30",
-        "Episode 2": "13.3",
-        "Episode 3": "11.5",
-        "Episode 4": "",
-        "Episode 5": ""
-      },
-      {
-        "Rank": "40",
+        "Rank": "45",
         "Name": "dhruvarajsinhpuwar06",
         "Episodes": "1",
         "Total": "40",
@@ -1064,7 +1207,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "41",
+        "Rank": "46",
+        "Name": "TeRdr",
+        "Episodes": "1",
+        "Total": "30.8",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "30.8"
+      },
+      {
+        "Rank": "47",
         "Name": "jhawardast",
         "Episodes": "1",
         "Total": "30",
@@ -1075,7 +1229,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "42",
+        "Rank": "48",
         "Name": "Divjyot Singh",
         "Episodes": "1",
         "Total": "28",
@@ -1086,7 +1240,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "43",
+        "Rank": "49",
         "Name": "sonalsanchi.agarwal",
         "Episodes": "1",
         "Total": "26",
@@ -1097,7 +1251,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "44",
+        "Rank": "50",
         "Name": "Anaha",
         "Episodes": "2",
         "Total": "25.4",
@@ -1108,7 +1262,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "45",
+        "Rank": "51",
         "Name": "akshhhay",
         "Episodes": "1",
         "Total": "24",
@@ -1119,7 +1273,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "46",
+        "Rank": "52",
         "Name": "vijaya_rajan",
         "Episodes": "1",
         "Total": "24",
@@ -1130,7 +1284,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "47",
+        "Rank": "53",
         "Name": "gh051",
         "Episodes": "1",
         "Total": "22",
@@ -1141,18 +1295,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "48",
-        "Name": "Rohan Gowda",
-        "Episodes": "2",
-        "Total": "19.6",
-        "Episode 1": "12",
-        "Episode 2": "7.6",
+        "Rank": "54",
+        "Name": "Sahasra_A",
+        "Episodes": "1",
+        "Total": "15.9",
+        "Episode 1": "",
+        "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "15.9"
       },
       {
-        "Rank": "49",
+        "Rank": "55",
         "Name": "hygge",
         "Episodes": "1",
         "Total": "15",
@@ -1163,18 +1317,18 @@
         "Episode 5": ""
       },
       {
-        "Rank": "50",
-        "Name": "sitaswag",
+        "Rank": "56",
+        "Name": "Mac_inations",
         "Episodes": "1",
-        "Total": "10",
-        "Episode 1": "10",
+        "Total": "9.5",
+        "Episode 1": "",
         "Episode 2": "",
         "Episode 3": "",
         "Episode 4": "",
-        "Episode 5": ""
+        "Episode 5": "9.5"
       },
       {
-        "Rank": "51",
+        "Rank": "57",
         "Name": "numgawd",
         "Episodes": "1",
         "Total": "9.5",
@@ -1185,7 +1339,7 @@
         "Episode 5": ""
       },
       {
-        "Rank": "52",
+        "Rank": "58",
         "Name": "khuski",
         "Episodes": "1",
         "Total": "8",
@@ -1196,7 +1350,29 @@
         "Episode 5": ""
       },
       {
-        "Rank": "53",
+        "Rank": "59",
+        "Name": "Deep19",
+        "Episodes": "1",
+        "Total": "5.3",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "5.3"
+      },
+      {
+        "Rank": "60",
+        "Name": "Eknoor",
+        "Episodes": "1",
+        "Total": "5.3",
+        "Episode 1": "",
+        "Episode 2": "",
+        "Episode 3": "",
+        "Episode 4": "",
+        "Episode 5": "5.3"
+      },
+      {
+        "Rank": "61",
         "Name": "AdhiraV",
         "Episodes": "1",
         "Total": "2.3",
