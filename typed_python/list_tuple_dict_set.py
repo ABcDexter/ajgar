@@ -25,3 +25,29 @@ def combine_two_tuples(t1: tuple[int], t2:tuple[int]) -> tuple[int]:
     return new_tuple
 
 print(combine_two_tuples((3,1,4), (1,5,9,2,6,5,3,5,8,9,7,9))) 
+
+print(f"{'#'*50}")
+# NOTE Dictionaries are mutable
+def combine_two_dicts(d1: dict[str, int], d2:dict[str, int]) -> dict[str, int]: 
+    '''
+    Combined integers of two dictionaries and return a single dictionary
+    '''
+    print(f"{d1} at {hex(id(d1))}")
+    d1.update(d2) 
+    print(f"returning a f{type(d1)} with address {hex(id(d1))}")
+    return d1
+
+print(combine_two_dicts({"a": 1, "b": 2}, {"c": 3, "d": 4}))    
+
+print(f"{'#'*50}")
+# NOTE Sets are mutable
+def combine_two_sets(s1: set[int], s2:set[int]) -> set[int]:
+    '''
+    Combined integers of two sets and return a single set
+    '''
+    print(f"{s1} at {hex(id(s1))}")
+    s1.update(s2) 
+    print(f"returning a f{type(s1)} with address {hex(id(s1))}")
+    return s1   
+
+print(combine_two_sets({1, 2, 3}, {4, 5, 6}))
