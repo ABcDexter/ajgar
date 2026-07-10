@@ -32,20 +32,20 @@ In Qt (and most User Interfaces), widget is the name given to a component of the
 This example shows a simple window with a variety of widgets.
 The window contains a vertical layout with the following widgets:
 {'_' * 80}
-Widget	       |  What it does
+Widget         |  What it does
 {'_' * 80}
-QCheckBox	   |  A checkbox
-QComboBox	   |  A dropdown list box
-QDateEdit	   |  For editing dates
+QCheckBox      |  A checkbox
+QComboBox      |  A dropdown list box
+QDateEdit      |  For editing dates
 QDateTimeEdit  |  For editing dates and datetimes
 QDial          |  Rotatable dial
 QDoubleSpinBox |  A number spinner for floats
 QFontComboBox  |  A list of fonts
-QLCDNumber	   |  A quite ugly LCD display
-QLabel		   |  Just a label, not interactive
-QLineEdit	   |  Enter a line of text
+QLCDNumber     |  A quite ugly LCD display
+QLabel         |  Just a label, not interactive
+QLineEdit      |  Enter a line of text
 QProgressBar   |  A progress bar
-QPushButton	   |  A button
+QPushButton    |  A button
 QRadioButton   |  A toggle set, with only one active item
 QSlider        |  A slider
 QSpinBox       |  An integer spinner
@@ -54,7 +54,7 @@ QTimeEdit      |  For editing times
 """
 
 print(f"{doc_string}{'_' * 80}")
-sleep_for_n_seconds(10)
+#sleep_for_n_seconds(10)
 
 # Subclass QMainWindow to customize your application's main window
 class MainWindow(QMainWindow):
@@ -93,7 +93,7 @@ class MainWindow(QMainWindow):
         # to take up all the space in the window by default.
         self.setCentralWidget(widget)
 
-app = QApplication(sys.argv)
-window = MainWindow()
-window.show()
-app.exec()
+# app = QApplication(sys.argv)
+# window = MainWindow()
+# window.show()
+# app.exec()
