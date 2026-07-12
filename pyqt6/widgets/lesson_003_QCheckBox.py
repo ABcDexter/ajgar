@@ -1,7 +1,16 @@
 import sys
+import time
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QApplication, QCheckBox, QMainWindow
 
+doc_str = f"""
+PyQt6 flag (long name)	       | Value | Behavior
+{"_"*69}
+Qt.CheckState.Unchecked	       | 0     | Item is unchecked
+Qt.CheckState.PartiallyChecked | 1     | Item is partially checked
+Qt.CheckState.Checked          | 2     | Item is checked
+{"_"*69}
+"""
 
 class MainWindow(QMainWindow):
 
@@ -30,6 +39,8 @@ class MainWindow(QMainWindow):
         else:
             print("unchecked")
 
+print(doc_str)
+time.sleep(1)
 app = QApplication(sys.argv)
 w = MainWindow()
 w.show()
