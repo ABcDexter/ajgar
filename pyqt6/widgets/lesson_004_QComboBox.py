@@ -29,7 +29,8 @@ class MainWindow(QMainWindow):
 
         widget = QComboBox()
         widget.addItems(["One", "Two", "Three"])
-
+        widget.setEditable(True)
+        
         # Sends the current index (position) of the selected item.
         widget.currentIndexChanged.connect(self.index_changed)
 
