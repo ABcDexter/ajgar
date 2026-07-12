@@ -13,16 +13,23 @@ class MainWindow(QMainWindow):
         widget = QCheckBox("This is a checkbox")
         widget.setCheckState(Qt.CheckState.Checked)
 
-        # For tristate: widget.setCheckState(Qt.CheckState.PartiallyChecked)
+        #For tristate: 
+        widget.setCheckState(Qt.CheckState.PartiallyChecked)
         # Or: widget.setTristate(True)
         widget.stateChanged.connect(self.show_state)
 
         self.setCentralWidget(widget)
 
     def show_state(self, s):
-        print(f"State {s} changed to: {"checked" if s == Qt.CheckState.Checked.value else "unchecked"}")
-        
-    
+        print(f"State changed to {s}: ", end="")
+
+        if s == Qt.CheckState.Checked.value:
+            print("checked")
+        elif s == Qt.CheckState.PartiallyChecked.value:
+            print("partially checked")
+        else:
+            print("unchecked")
+
 app = QApplication(sys.argv)
 w = MainWindow()
 w.show()
