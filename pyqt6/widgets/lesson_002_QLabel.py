@@ -38,8 +38,8 @@ class MainWindow(QMainWindow):
             Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignVCenter
         )
 
-        widget.setPixmap(QPixmap("AbcDexter.jpeg"))  # Set the image to be displayed in the label
-        widget.setScaledContents(True)
+        # widget.setPixmap(QPixmap("AbcDexter.jpeg"))  # Set the image to be displayed in the label
+        # widget.setScaledContents(True)
 
 
         self.setCentralWidget(widget)
