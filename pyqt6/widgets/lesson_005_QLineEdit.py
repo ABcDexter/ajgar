@@ -10,8 +10,12 @@ class MainWindow(QMainWindow):
 
         widget = QLineEdit()
         widget.setMaxLength(10)
-        widget.setPlaceholderText("Thou shalt NOT edit")
-
+        widget.setText("Thou shalt NOT edit")
+        #widget.setPlaceholderText("Thou shalt NOT edit")
+        # so, it appears that setText() is not the same as setPlaceholderText()
+        # because the setText sets the text of the QLineEdit, 
+        # while the setPlaceholderText sets a placeholder text that is displayed when the QLineEdit is empty.
+        # I wasn;t seeing the Selection changed signal being emitted when I was typing in the QLineEdit.
         widget.setReadOnly(True) # uncomment this to make readonly
 
         widget.returnPressed.connect(self.return_pressed)
