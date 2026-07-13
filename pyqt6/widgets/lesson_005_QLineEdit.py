@@ -10,9 +10,9 @@ class MainWindow(QMainWindow):
 
         widget = QLineEdit()
         widget.setMaxLength(10)
-        widget.setPlaceholderText("Enter your text")
+        widget.setPlaceholderText("Thou shalt NOT edit")
 
-        #widget.setReadOnly(True) # uncomment this to make readonly
+        widget.setReadOnly(True) # uncomment this to make readonly
 
         widget.returnPressed.connect(self.return_pressed)
         widget.selectionChanged.connect(self.selection_changed)
