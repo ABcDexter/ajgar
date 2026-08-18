@@ -1,8 +1,10 @@
+USAGE = f"""
 #############################################################################################################################
 # This script scrapes the GP rankings of Indian puzzlers from the World Puzzle Federation website.                          #
 # It fetches the rankings from the preliminary results page for each round of the GP and prints them in a formatted manner. #
-# Note: The script currently only works for round 5 due to login requirements for earlier rounds.                           #
+# Note: send the num_rounds as a command-line argument and work for only the first num_rounds                               #
 #############################################################################################################################
+"""
 
 ###########
 # Imports #
@@ -10,12 +12,14 @@
 import requests
 import json
 from bs4 import BeautifulSoup
-
+from argparse import ArgumentParser as ArgParser
 #############
 # Constants #
 #############
 BASE_URL = "https://gp.worldpuzzle.org/content/preliminary-results-wpf-gp-puzzle-"           
 BASE_URL_v2 = "https://gp.worldpuzzle.org/WPF_scripts/RL_GP_v00.php?game_type=WPF_GP26_P_t" #followed by round number e.g. 1,2,3,4,5...
+parser = ArgParser(description=USAGE)
+parser.add_argument('--num_rounds', type=int, default=5, help='Number of rounds to fetch rankings for (default: 5)')
 
 ####################
 # Helper Functions #
@@ -108,7 +112,7 @@ def main():
             print(f"{rank}. {ranking['name']:<20} {ranking['country']:<10} {ranking['points']:<10}")
 
 
-    def iterate_over_rankings(num: int):
+    def iterate_over_rankings(num: int=5 ):
         '''
         Iterate over the GP rankings for the given number of rounds and print them.
         '''
@@ -118,8 +122,17 @@ def main():
             print_rankings(rankings)
             print("\n" + "="*50 + "\n") # separator between rounds
         
-    iterate_over_rankings(5) #onyl first 5 rounds
+    iterate_over_rankings() # only first 5 rounds
+
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        print(f"{USAGE}")
+        args = parser.parse_args()
+        num_rounds = args.num_rounds
+        main(num_rounds)
+    except TypeError:
+        main()
+    except Exception as e:
+        print(f"An error occurred: {e}")
