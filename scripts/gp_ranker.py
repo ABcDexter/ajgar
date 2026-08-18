@@ -1,3 +1,4 @@
+from functools import total_ordering
 USAGE = f"""
 #############################################################################################################################
 # This script scrapes the GP rankings of Indian puzzlers from the World Puzzle Federation website.                          #
@@ -20,6 +21,21 @@ BASE_URL = "https://gp.worldpuzzle.org/content/preliminary-results-wpf-gp-puzzle
 BASE_URL_v2 = "https://gp.worldpuzzle.org/WPF_scripts/RL_GP_v00.php?game_type=WPF_GP26_P_t" #followed by round number e.g. 1,2,3,4,5...
 parser = ArgParser(description=USAGE)
 parser.add_argument('--num_rounds', type=int, default=5, help='Number of rounds to fetch rankings for (default: 5)')
+
+####################
+#     Classes      #
+####################
+
+
+class Puzzler():
+    def __init__(self, name: str, country: str, points: list = None ):
+        self.name    = name
+        self.country = country
+        self.points  = points
+
+    def __repr__(self):
+        pts = f' {", ".join(map(str, self.points))}'
+        return f"Puzzler(name={self.name}, points={pts})\n"
 
 ####################
 # Helper Functions #
@@ -101,7 +117,8 @@ def get_gp_rankings_of_India_v2(url: str) -> list:
 # main function #
 #################
 def main():
-    
+    dict_Indian_puzzlers = dict() # dictionary to store the unique puzzlers across rounds
+
     def print_rankings(rankings: list):
         '''
         Print the GP rankings in a formatted manner.
@@ -119,12 +136,46 @@ def main():
         for round in range(1, num + 1): 
             print(f"GP Rankings of India for Round {round}:\n")
             rankings = get_gp_rankings_of_India_v2(BASE_URL_v2 + f"{round}")
-            print_rankings(rankings)
+            #print_rankings(rankings)
+            list_of_Puzzlers = save_rankings(rankings, round)
+            print(f"\nList of Puzzlers for Round {round}:")
+            for puzzler in list_of_Puzzlers:
+                #print(f"  {puzzler.name} ({puzzler.country}): {puzzler.points}")
+                if puzzler.name not in dict_Indian_puzzlers:
+                    dict_Indian_puzzlers[puzzler.name] = (puzzler.name, puzzler.country, [puzzler.points]) # store the points in a list
+                else:
+                    # if the puzzler is already in the dictionary, add the points in the list of points to the existing points in the dictionary
+                    dict_Indian_puzzlers[puzzler.name][2].append(puzzler.points)
+                    print(f"Updated points for {puzzler.name}: {dict_Indian_puzzlers[puzzler.name][2]}")
             print("\n" + "="*50 + "\n") # separator between rounds
         
+
+    def save_rankings(rankings: list, round: int):
+        ''' 
+        Save the GP rankings of India into a list of Puzzler objects for the given round.
+        '''
+        list_of_Puzzlers = []
+        for ranking in rankings:
+            puzzler = Puzzler(
+                name=ranking['name'],
+                country=ranking['country'],
+                points=ranking['points']
+            )
+            list_of_Puzzlers.append(puzzler)
+        return list_of_Puzzlers
+
+    def print_puzzlers():
+        '''
+        Print the unique puzzlers across all rounds.
+        '''
+        print(f"\nUnique Puzzlers across all rounds:\n")
+        for name, (name, country, points) in dict_Indian_puzzlers.items():
+            print(f"{name:<20} {country:<10} {points}")
+
+    # Steps 
     iterate_over_rankings() # only first 5 rounds
-
-
+    print_puzzlers()        # print the unique puzzlers across all rounds
+    
 
 if __name__ == "__main__":
     try:
