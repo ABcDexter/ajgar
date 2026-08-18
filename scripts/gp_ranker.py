@@ -1,4 +1,4 @@
-from functools import total_ordering
+
 USAGE = f"""
 #############################################################################################################################
 # This script scrapes the GP rankings of Indian puzzlers from the World Puzzle Federation website.                          #
@@ -32,6 +32,7 @@ class Puzzler():
         self.name    = name
         self.country = country
         self.points  = points
+        self.best_three = None
 
     def __repr__(self):
         pts = f' {", ".join(map(str, self.points))}'
@@ -134,11 +135,11 @@ def main():
         Iterate over the GP rankings for the given number of rounds and print them.
         '''
         for round in range(1, num + 1): 
-            print(f"GP Rankings of India for Round {round}:\n")
+            #print(f"GP Rankings of India for Round {round}:\n")
             rankings = get_gp_rankings_of_India_v2(BASE_URL_v2 + f"{round}")
             #print_rankings(rankings)
             list_of_Puzzlers = save_rankings(rankings, round)
-            print(f"\nList of Puzzlers for Round {round}:")
+            #print(f"\nList of Puzzlers for Round {round}:")
             for puzzler in list_of_Puzzlers:
                 #print(f"  {puzzler.name} ({puzzler.country}): {puzzler.points}")
                 if puzzler.name not in dict_Indian_puzzlers:
@@ -146,8 +147,8 @@ def main():
                 else:
                     # if the puzzler is already in the dictionary, add the points in the list of points to the existing points in the dictionary
                     dict_Indian_puzzlers[puzzler.name][2].append(puzzler.points)
-                    print(f"Updated points for {puzzler.name}: {dict_Indian_puzzlers[puzzler.name][2]}")
-            print("\n" + "="*50 + "\n") # separator between rounds
+                    #print(f"Updated points for {puzzler.name}: {dict_Indian_puzzlers[puzzler.name][2]}")
+            #print("\n" + "="*50 + "\n") # separator between rounds
         
 
     def save_rankings(rankings: list, round: int):
@@ -172,9 +173,59 @@ def main():
         for name, (name, country, points) in dict_Indian_puzzlers.items():
             print(f"{name:<20} {country:<10} {points}")
 
+    def sort_points():
+        '''
+        Sort the points of each puzzler across rounds.
+        '''
+        for name, (name, country, points) in dict_Indian_puzzlers.items():
+            points.sort(reverse=True) # sort the points in descending order
+            #print(f"Sorted points for {name}: {points}")
+
+    def normalize_scores():
+        '''
+        Take the best 3 scores of each puzzler, sum them up to make a best_three, and normalize the scores by giving the 4th highest best_three score a value of 100, and the rest of the scores are scaled accordingly. The normalized scores are stored in a new attribute of the Puzzler class called best_three.
+        '''
+        list_of_puzzlers = []
+        for name, (name, country, points) in dict_Indian_puzzlers.items():
+            best_three = sum(int(point) for point in points[:3]) # take the best 3 scores
+            list_of_puzzlers.append([name,best_three])
+
+        # sort the list of puzzlers by best_three in descending order
+        list_of_puzzlers.sort(key=lambda x: x[1], reverse=True)
+
+        print(f" List of Puzzlers sorted by best_three:\n {list_of_puzzlers}")
+
+        # normalize the scores by giving the 4th highest best_three score a value of 100, and the rest of the scores are scaled accordingly
+        if len(list_of_puzzlers) >= 4:
+            fourth_highest_score = list_of_puzzlers[3][1]
+        else:
+            fourth_highest_score = list_of_puzzlers[-1][1]  
+        
+        for i, puzzler in enumerate(list_of_puzzlers):
+            if fourth_highest_score > 0:
+                normalized_score = (puzzler[1] / fourth_highest_score) * 100
+            
+            list_of_puzzlers[i][1] = round(normalized_score, 2) # update the best_three attribute of the Puzzler object
+            #dict_Indian_puzzlers[name][2] = round(normalized_score, 2) # store the normalized score in the points list
+
+        def print_normalized_scores():
+            print(f"\nNormalized scores of Puzzlers:\n")
+            for i in range(len(list_of_puzzlers)):
+                name, best_three = list_of_puzzlers[i]
+                country = 'IN' # since we are only considering Indian puzzlers
+                points = best_three # get the normlized points   
+                print(f"{name:<20} {country:<10} {points:>10.2f}")
+        
+        print_normalized_scores()
+        
+        
+
     # Steps 
     iterate_over_rankings() # only first 5 rounds
+    sort_points()           # sort the points of each puzzler across rounds
     print_puzzlers()        # print the unique puzzlers across all rounds
+    normalize_scores()      # take the best 3 scores of each puzzler, sum them up to make a best_three, and normalize the scores by giving the 4th highest best_three score a value of 100, and the rest of the scores are scaled accordingly. The normalized scores are stored in a new attribute of the Puzzler class called best_three.
+
     
 
 if __name__ == "__main__":
